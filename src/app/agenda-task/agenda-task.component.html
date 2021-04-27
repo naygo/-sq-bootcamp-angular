@@ -9,6 +9,7 @@
       <span [ngClass]="{ 'task-done': task.done === true }">
         {{ task.title }}
       </span>
+      <p>{{ task.remindMe | date: 'dd/MM/yyyy' }}</p>
     </div>
     <span class="spacer"></span>
     <span class="align-middle task-actions">

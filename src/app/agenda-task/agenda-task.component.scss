@@ -1,5 +1,11 @@
 
 $task-done-color: #a5b1c2;
+$task-date-color: #727272;
+
+p {
+  color: $task-date-color;
+  font-size: 0.8rem;
+}
 
 .checkbox {
   margin-right: 5px;

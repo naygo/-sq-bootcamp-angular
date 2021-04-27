@@ -9,6 +9,7 @@ import { TaskService } from '../services/task.service';
   styleUrls: ['./agenda-task.component.scss']
 })
 export class AgendaTaskComponent implements OnInit {
+
   @Input() tasks: Task[] = [];
 
   constructor(private taskServe: TaskService) { }
