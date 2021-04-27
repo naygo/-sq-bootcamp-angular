@@ -6,7 +6,7 @@
         Meu Dia
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <app-agenda-task [tasks]="tarefasParaHoje"></app-agenda-task>
+    <app-agenda-task [tasks]="tarefasParaHoje" [day]="'hoje'"></app-agenda-task>
   </mat-expansion-panel>
 
   <mat-expansion-panel>
@@ -17,7 +17,7 @@
       <mat-panel-description>
       </mat-panel-description>
     </mat-expansion-panel-header>
-    <app-agenda-task [tasks]="tarefasParaAmanha"></app-agenda-task>
+    <app-agenda-task [tasks]="tarefasParaAmanha" [day]= "'amanha'"></app-agenda-task>
   </mat-expansion-panel>
 
   <mat-expansion-panel>

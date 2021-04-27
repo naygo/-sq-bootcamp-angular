@@ -11,6 +11,7 @@ import { TaskService } from '../services/task.service';
 export class AgendaTaskComponent implements OnInit {
 
   @Input() tasks: Task[] = [];
+  @Input() day: string = '';
 
   constructor(private taskServe: TaskService) { }
 
